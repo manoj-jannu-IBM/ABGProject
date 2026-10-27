@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">abhk</value>
-    <value name="lastModifiedDate">2026-10-27T03:53:54.188771567Z</value>
+    <value name="lastModifiedDate">2026-10-27T03:55:10.918332490Z</value>
     <value name="displayName">PGPTest</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -75,7 +75,7 @@
           <value name="connectionType">pgp</value>
           <null name="description"/>
         </record>
-        <value name="connectionNSName">PGPAccount</value>
+        <value name="connectionNSName">project.abg.pgp.connections:PGPAccount</value>
         <value name="connectionType">pgp</value>
         <value name="type">pgp</value>
         <value name="version">1</value>
@@ -112,6 +112,7 @@
         <number name="lineNumberForDebug" type="Long">1</number>
         <Boolean name="xmlMapsetSupported">true</Boolean>
         <null name="outputMapSet"/>
+        <value name="nodePathForDebug">0</value>
       </record>
     </record>
     <value name="modifiedBy">abhk</value>
