@@ -8,6 +8,10 @@ packages:
   gitUsername: manoj-jannu-IBM
   gitBranch: main
 services:
+- serviceName: project.abg.http.connections:HTTPAccount
+  packages:
+  - name: ABGProject
+    version: "1.0"
 - serviceName: project.abg.integrations:PGP
   packages:
   - name: ABGProject
