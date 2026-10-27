@@ -12,6 +12,14 @@ services:
   packages:
   - name: ABGProject
     version: "1.0"
+- serviceName: project.abg.integrations:HTTPTest
+  packages:
+  - name: ABGProject
+    version: "1.0"
+- serviceName: pub.client:http
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1315
 - serviceName: project.abg.integrations:PGP
   packages:
   - name: ABGProject
