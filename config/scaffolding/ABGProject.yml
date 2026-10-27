@@ -20,3 +20,7 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.1315
+- serviceName: project.abg.pgp.connections:PGPAccount1
+  packages:
+  - name: ABGProject
+    version: "1.0"
