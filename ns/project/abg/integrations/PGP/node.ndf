@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">abhk</value>
-    <value name="lastModifiedDate">2026-10-27T04:54:45.870981518Z</value>
+    <value name="lastModifiedDate">2026-10-27T04:56:03.756699841Z</value>
     <value name="displayName">PGP</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -72,11 +72,11 @@
         <Boolean name="hasAccount">true</Boolean>
         <record name="connection" javaclass="com.wm.util.Values">
           <value name="connectionName">PGPAccount27Oct</value>
-          <value name="connectionType">pgp</value>
+          <value name="connectionType"></value>
           <null name="description"/>
         </record>
-        <value name="connectionNSName">project.abg.pgp.connections:PGPAccount27Oct</value>
-        <value name="connectionType">pgp</value>
+        <value name="connectionNSName">PGPAccount27Oct</value>
+        <value name="connectionType"></value>
         <value name="type">pgp</value>
         <value name="version">1</value>
         <null name="packageName"/>
@@ -136,11 +136,11 @@
         <Boolean name="hasAccount">true</Boolean>
         <record name="connection" javaclass="com.wm.util.Values">
           <value name="connectionName">PGPAccount27Oct</value>
-          <value name="connectionType">pgp</value>
+          <value name="connectionType"></value>
           <null name="description"/>
         </record>
-        <value name="connectionNSName">project.abg.pgp.connections:PGPAccount27Oct</value>
-        <value name="connectionType">pgp</value>
+        <value name="connectionNSName">PGPAccount27Oct</value>
+        <value name="connectionType"></value>
         <value name="type">pgp</value>
         <value name="version">1</value>
         <null name="packageName"/>
@@ -176,16 +176,10 @@
         <number name="lineNumberForDebug" type="Long">2</number>
         <Boolean name="xmlMapsetSupported">true</Boolean>
         <null name="outputMapSet"/>
+        <value name="nodePathForDebug">1</value>
       </record>
     </record>
     <value name="modifiedBy">abhk</value>
-    <value name="createdBy">abhk</value>
-    <value name="createdDate">1793076885870</value>
-    <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="group">Default</value>
-      <value name="id">default</value>
-      <value name="name">Cloud Execution</value>
-    </record>
   </record>
   <value name="svc_in_validator_options">none</value>
   <value name="svc_out_validator_options">none</value>
