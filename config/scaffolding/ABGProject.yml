@@ -16,11 +16,7 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.1315
-- serviceName: project.abg.pgp.connections:PGPAccount
+- serviceName: pub.security:decryptAndVerify
   packages:
-  - name: ABGProject
-    version: "1.0"
-- serviceName: project.abg.streaming.connections:EmbeddedMessaging
-  packages:
-  - name: ABGProject
-    version: "1.0"
+  - name: WmPublic
+    version: 12.1.0.0.1315
